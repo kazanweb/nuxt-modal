@@ -31,7 +31,7 @@ export default {
 			this.component = null;
 		},
 		handleKeyUp(e) {
-			if (e.keyCode == 27) this.handleModalClose(true);
+			if (e.keyCode === 27) this.handleModalClose(true);
 		}
 	},
 	mounted() {
